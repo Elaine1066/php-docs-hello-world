@@ -1,0 +1,238 @@
+/* login */
+.card {
+    width: 60%;
+    border: none
+}
+
+.btr {
+    border-top-right-radius: 5px !important
+}
+
+.btl {
+    border-top-left-radius: 5px !important
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd
+}
+
+.btn-dark:hover {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd
+}
+
+.nav-pills {
+    display: table !important;
+    width: 100%
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+    border-bottom: 1px solid #0d6efd40
+}
+
+.nav-item {
+    display: table-cell;
+    /* background: #0d6efd2e */
+}
+
+.form {
+    padding: 10px;
+    height: 300px
+}
+
+.form input {
+    margin-bottom: 12px;
+    border-radius: 3px
+}
+
+.form input:focus {
+    box-shadow: none
+}
+
+.form button {
+    margin-top: 20px
+}
+
+/* register */
+.container2 {
+    margin: 20px auto;
+    width: 100%;
+    /* max-width: 800px; */
+}
+
+.registration {
+    background-color: #fff;
+    /* max-width: 600px; */
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+    /* border-bottom: 5px solid #4c5762; */
+    border-bottom: 5px solid;
+    border-bottom-color: rgba(51,78,141,0.8);
+}
+
+.input-requirements {
+    /* font-size: 1.3rem; */
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: left;
+    list-style: disc;
+    list-style-position: inside;
+    max-width: 100%;
+    margin: 10px auto;
+    color: rgb(150,150,150);
+}
+
+
+    .input-requirements li.invalid {
+        color: #e74c3c;
+    }
+
+    .input-requirements li.valid {
+        color: #2ecc71;
+    }
+
+        .input-requirements li.valid:after {
+            display: inline-block;
+            padding-left: 10px;
+            content: "\2713";
+        }
+
+
+input, button {
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    color: rgb(40, 40, 40);
+    vertical-align: top;
+    display: block;
+    margin: 10px auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    text-align: left;
+    position: relative;
+    padding: 0 20px;
+}
+
+input,
+textarea,
+select,
+option,
+date,
+optgroup,
+button,
+legend,
+fieldset {
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    color: rgb(40, 40, 40);
+    vertical-align: top;
+    display: block;
+    text-align: left;
+}
+
+textarea, select{
+    width: 100%;
+}
+
+select, 
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+    width: 100%;
+    max-width: 100%;
+    padding: calc( 40px / 5 );
+    background-color: rgb(250,250,250);
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    height: 40px;
+    -webkit-appearance: none;
+}
+
+button
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    max-width: 200px;
+    /* background-color: rgba(76, 87, 98, 0.2); */
+    background-color: rgba(51, 78, 141, 0.2);
+    padding: calc( 40px / 5 );
+    cursor: pointer;
+    color: rgb(40, 40, 40);
+    font-weight: 700;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+}
+
+input[type="radio"] {
+  display: inline-block;
+  vertical-align: middle;
+  width:10%;
+} 
+
+input:focus {
+    background-color: rgb(250,250,250);
+    border-color: rgb(40, 40, 40);
+}
+
+/* input[type="radio"]:focus {
+  outline: var(--fh-focus-border-color) solid 2px;
+} */
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus {
+    /* background-color: rgba(76, 87, 98, 0.5); */
+    background-color: rgba(51, 78, 141, 0.8);
+    /* color: rgb(40, 40, 40); */
+    color:#fff;
+}
+
+input:not([type="submit"]):valid {
+    border-color: #2ecc71;
+}
+
+input:not([type="submit"]) + .input-requirements {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 1s ease-out;
+}
+
+input:not([type="submit"]):hover + .input-requirements,
+input:not([type="submit"]):focus + .input-requirements,
+input:not([type="submit"]):active + .input-requirements {
+    max-height: 1000px; /* any large number (bigger then the .input-requirements list) */
+    transition: max-height 1s ease-in;
+}
+
+
+.gender-label{
+    
+    /* basic modern patch */
+    all: unset;
+}
