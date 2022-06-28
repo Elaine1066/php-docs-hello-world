@@ -14,11 +14,7 @@
 </head>
 
 <body style="background-image: url(img/bg-img/bg-7.jpg); background-repeat: no-repeat; size: cover; width: 100%;">
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="cssload-container">
-            <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
-        </div>
-    </div>
+    
 
     <header class="header-area">
         <!-- Navbar -->
